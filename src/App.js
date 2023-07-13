@@ -21,7 +21,7 @@ function App() {
           login({
             email:userAuth.email,
             uid:userAuth.uid,
-            displayName:userAuth.dispalyName,
+            displayName:userAuth.displayName,
             photoUrl:userAuth.photoURL
           })
           
@@ -40,7 +40,7 @@ function App() {
       {!user ? ( 
         <Login /> 
       ):(
-        <div className='app__body'>
+        <div className="app__body">
         <Sidebar />
         <Feed />
         <Widgets />
