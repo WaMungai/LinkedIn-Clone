@@ -45,16 +45,16 @@ function Feed() {
       setInput("")
   }
   return (
-    <div className='feed'>
-        <div className='feed__inputContainer'>
-            <div className='feed__input'>
+    <div className="feed">
+        <div className="feed__inputContainer">
+            <div className="feed__input">
             <CreateIcon />
             <form>
                 <input value={input} onChange={e=> setInput(e.target.value)} type='text'/>
                 <button onClick={sendPost} type="submit">Send</button>
             </form>
             </div>
-            <div className='feed__inputOptions'>
+            <div className="feed__inputOptions">
               <InputOption Icon={ImageIcon} title="Photo" color="#70B5F9" />
               <InputOption Icon={SmartDisplayIcon} title="Video" color="#E7A33E" />
               <InputOption Icon={EventIcon} title="Event" color="C0CBCD" />

@@ -49,7 +49,7 @@ export default function Login() {
   }
 
   return (
-    <div className='login'>
+    <div className="login">
        <img  src="https://upload.wikimedia.org/wikipedia/commons/b/b1/LinkedIn_Logo_2013_%282%29.svg" alt=""/>
        <form>
         <input 
@@ -80,7 +80,7 @@ export default function Login() {
         <button type="submit" onClick={loginToApp}>Sign in</button>
        </form>
        <p>Not a member? {" "}
-       <span className='login__register' onClick={register}>Register now</span>
+       <span className="login__register" onClick={register}>Register now</span>
        </p>
     </div>
   )

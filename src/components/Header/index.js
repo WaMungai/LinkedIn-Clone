@@ -21,15 +21,15 @@ function Header() {
   }
 
   return (
-    <div className='header'>
-        <div className='header__left'>
+    <div className="header">
+        <div className="header__left">
          <img width="48" height="48" src="https://img.icons8.com/color/48/linkedin.png" alt="linkedin"/>
-            <div className='header__search'>
+            <div className="header__search">
                 <SearchIcon />
                 <input placeholder='Search' type="text" />
         </div>
         </div>
-        <div className='header__right'>
+        <div className="header__right">
         <HeaderOption Icon={HomeIcon} title="Home"/>
         <HeaderOption Icon={GroupIcon} title="My Network"/>
         <HeaderOption Icon={BusinessCenterIcon} title="Jobs"/>
